@@ -1,3 +1,7 @@
 
-M
-java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8õóûÃÃ.
+b
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(æ¿ Óûÿÿÿÿ8³ÒæßÄ.
+b
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(Ø¢é­ûÿÿÿÿ8³ÒæßÄ.
+\
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ªîÈC8³ÒæßÄ.
