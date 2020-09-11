@@ -11,15 +11,15 @@ import java.util.List;
 public class StockTransactionController {
 
     @Autowired
-    StockTransactionServiceImpl stockService;
+    StockTransactionServiceImpl stockTransactionService;
 
     @PostMapping("/addstock")
     public StockTransaction addStock(@RequestBody StockTransaction stockTransaction){
-        return stockService.addStock(stockTransaction);
+        return stockTransactionService.addStock(stockTransaction);
     }
 
     @GetMapping("/{userId}/getallstocks")
     public List<StockTransaction> getAllStocks(@PathVariable Long userId){
-        return stockService.getAllStocks(userId);
+        return stockTransactionService.getAllStocks(userId);
     }
 }
