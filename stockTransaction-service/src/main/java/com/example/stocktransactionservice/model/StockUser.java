@@ -1,10 +1,10 @@
-package com.example.userservice.model;
+package com.example.stocktransactionservice.model;
 
 import javax.persistence.*;
 
 @Entity
 @Table
-public class User_stocks {
+public class StockUser {
 
     @Id
     @Column
@@ -17,7 +17,7 @@ public class User_stocks {
     @Column
     private Long stockId;
 
-    public User_stocks(){}
+    public StockUser(){}
 
     public Long getId() {
         return id;
