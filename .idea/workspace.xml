@@ -2,12 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="113b04e0-e16d-4c9f-b414-ee609a8e93c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/controller/StockController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/repository/StockRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/service/StockService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/service/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0382a0364fdf20aa09bcdfcd5918541653df2b30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3571f6db3baf42498305f4d2a8c6dfd25976a524" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/399d457c5a7cb3105cd1a9b9d2cb9efb059ab969" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6495c93d1f6fc46a6328a7e02f90c1e7da0c1af7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e0fecda2c8a89e07137cbd2096a165af0c055a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a4c1c27ba5cbd03fdbf9007efdf78086dd5e2cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9bf7c920c3a8a2e01a77250f98b41a6a9cbdde4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba7657071a6375a090fd6cea6d7f1fe0e184e100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d52e32dfb5d3eb6cf05fa3fa1309f01ab863631f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0589f76118f8d84b30619a479291e841c7e4cd1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8b89d3f3cf30afd5651b059bfc74bed5e8dc7dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa4cf8fb6d589e8f9bec68004408b6bf2a576d7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/StockTransactionServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/controller/StockTransactionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/model/StockTransaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/repository/StockTransactionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/service/StockTransactionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/service/StockTransactionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/target/test-classes/com/example/stocktransactionservice/StockTransactionServiceApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/controller/StockTransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/service/StockTransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/service/StockTransactionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdb0edc1e70c835a3b793695a167201b4a8af4ea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdb0edc1e70c835a3b793695a167201b4a8af4ea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/StockServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/StockTransactionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/controller/StockController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/model/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/model/StockTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/repository/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/repository/StockTransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/service/StockService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/service/StockServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/test/java/com/example/stockservice/StockServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/test/java/com/example/stocktransactionservice/StockTransactionServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +85,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="user-service/invalid/Web" />
+    </ignored-facets>
   </component>
   <component name="ProjectId" id="1ggqkSrqLvBAvqhYZBLIX0psWQ0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,11 +96,15 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,7 +123,20 @@
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StockServiceApplication">
+  <component name="RunManager" selected="Application.StockTransactionServiceApplication">
+    <configuration name="StockTransactionServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.stocktransactionservice.StockTransactionServiceApplication" />
+      <module name="stockTransaction-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.stocktransactionservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.config.ConfigApplication" />
@@ -97,8 +159,8 @@
       </method>
     </configuration>
     <configuration name="StockServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="stock-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.stockservice.StockServiceApplication" />
+      <module name="stockTransaction-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.stocktransactionservice.StockTransactionServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,18 +172,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+    <recent_temporary>
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <item itemvalue="Application.StockTransactionServiceApplication" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -137,7 +192,10 @@
       <workItem from="1598671455950" duration="10066000" />
       <workItem from="1598926243885" duration="19422000" />
       <workItem from="1599275497200" duration="3938000" />
-      <workItem from="1599706400152" duration="3508000" />
+      <workItem from="1599706400152" duration="4245000" />
+      <workItem from="1599791369030" duration="2883000" />
+      <workItem from="1599855650470" duration="135000" />
+      <workItem from="1599855807252" duration="58000" />
     </task>
     <servers />
   </component>
@@ -160,26 +218,46 @@
       <screen x="0" y="23" width="2048" height="1077" />
     </state>
     <state x="488" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@0.23.2048.1077" timestamp="1598547454124" />
-    <state x="2842" y="179" key="#com.intellij.ide.util.MemberChooser" timestamp="1599710598598">
+    <state x="2842" y="179" key="#com.intellij.ide.util.MemberChooser" timestamp="1599854814423">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state x="2842" y="179" key="#com.intellij.ide.util.MemberChooser/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599710598598" />
-    <state width="1376" height="300" key="GridCell.Tab.0.bottom" timestamp="1599415250227">
+    <state x="2842" y="179" key="#com.intellij.ide.util.MemberChooser/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599854814423" />
+    <state x="2777" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599855446020">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1376" height="300" key="GridCell.Tab.0.bottom/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599415250227" />
-    <state width="1376" height="300" key="GridCell.Tab.0.center" timestamp="1599415250226">
+    <state x="2777" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855446020" />
+    <state width="1996" height="738" key="GridCell.Tab.0.bottom" timestamp="1599855620154">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1376" height="300" key="GridCell.Tab.0.center/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599415250226" />
-    <state width="1376" height="300" key="GridCell.Tab.0.left" timestamp="1599415250225">
+    <state width="1996" height="738" key="GridCell.Tab.0.bottom/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620154" />
+    <state width="1996" height="738" key="GridCell.Tab.0.center" timestamp="1599855620153">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1376" height="300" key="GridCell.Tab.0.left/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599415250225" />
-    <state width="1376" height="300" key="GridCell.Tab.0.right" timestamp="1599415250226">
+    <state width="1996" height="738" key="GridCell.Tab.0.center/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620153" />
+    <state width="1996" height="738" key="GridCell.Tab.0.left" timestamp="1599855620153">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1376" height="300" key="GridCell.Tab.0.right/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599415250226" />
+    <state width="1996" height="738" key="GridCell.Tab.0.left/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620153" />
+    <state width="1996" height="738" key="GridCell.Tab.0.right" timestamp="1599855620154">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1996" height="738" key="GridCell.Tab.0.right/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620154" />
+    <state width="1996" height="738" key="GridCell.Tab.1.bottom" timestamp="1599855620156">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1996" height="738" key="GridCell.Tab.1.bottom/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620156" />
+    <state width="1996" height="738" key="GridCell.Tab.1.center" timestamp="1599855620155">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1996" height="738" key="GridCell.Tab.1.center/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620155" />
+    <state width="1996" height="738" key="GridCell.Tab.1.left" timestamp="1599855620154">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1996" height="738" key="GridCell.Tab.1.left/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620154" />
+    <state width="1996" height="738" key="GridCell.Tab.1.right" timestamp="1599855620155">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1996" height="738" key="GridCell.Tab.1.right/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620155" />
     <state x="2646" y="207" key="NewModule_or_Project.wizard" timestamp="1599709457116">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
@@ -190,11 +268,11 @@
     </state>
     <state x="384" y="41" key="SettingsEditor/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@0.23.2048.1077" timestamp="1599006189674" />
     <state x="2432" y="42" key="SettingsEditor/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599709509000" />
-    <state x="2695" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1599706408268">
+    <state x="2695" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1599855807906">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="647" y="355" key="com.intellij.ide.util.TipDialog/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@0.23.2048.1077" timestamp="1599275498519" />
-    <state x="2695" y="371" key="com.intellij.ide.util.TipDialog/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599706408268" />
+    <state x="2695" y="371" key="com.intellij.ide.util.TipDialog/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855807906" />
     <state x="223" y="193" key="new project wizard" timestamp="1598548960236">
       <screen x="0" y="23" width="2048" height="1077" />
     </state>
