@@ -22,6 +22,6 @@ public class StockTransactionServiceImpl implements StockTransactionService {
     //not yet done, need to connect with user repository to get user information, and linked two table together
     @Override
     public List<StockTransaction> getAllStocks(Long userId) {
-        return null;
+        
     }
 }
