@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="113b04e0-e16d-4c9f-b414-ee609a8e93c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/model/StockUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/repository/StockUserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/repository/StockUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/controller/StockTransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/controller/StockTransactionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/service/StockTransactionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/target/classes/com/example/stocktransactionservice/service/StockTransactionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/controller/StockTransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/controller/StockTransactionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/repository/StockTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/repository/StockTransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/service/StockTransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/service/StockTransactionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/model/User_stocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/model/StockUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockTransaction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.1536524" />
     <property name="project.structure.side.proportion" value="0.3229885" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
@@ -80,10 +72,10 @@
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceApplication">
+  <component name="RunManager" selected="Application.StockTransactionServiceApplication">
     <configuration name="StockTransactionServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.stocktransactionservice.StockTransactionServiceApplication" />
-      <module name="stockTransaction-service" />
+      <module name="transaction-service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.stocktransactionservice.*" />
@@ -144,10 +136,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserServiceApplication" />
         <item itemvalue="Application.StockTransactionServiceApplication" />
+        <item itemvalue="Application.UserServiceApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -167,6 +171,8 @@
       <workItem from="1599791369030" duration="2883000" />
       <workItem from="1599855650470" duration="135000" />
       <workItem from="1599855807252" duration="58000" />
+      <workItem from="1599866331283" duration="69000" />
+      <workItem from="1599867506237" duration="2635000" />
     </task>
     <servers />
   </component>
@@ -181,6 +187,10 @@
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="2572" y="172" key="#Assign_Data_Sources/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1598845535058" />
+    <state x="2675" y="157" key="#StockTransactionServiceApplication" timestamp="1599880209191">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state x="2675" y="157" key="#StockTransactionServiceApplication/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599880209191" />
     <state x="2747" y="294" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1598845780388">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
@@ -193,26 +203,34 @@
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="2842" y="179" key="#com.intellij.ide.util.MemberChooser/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599864091348" />
+    <state x="2747" y="312" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599880045890">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state x="2747" y="312" key="#com.intellij.ide.util.TreeClassChooserDialog/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599880045890" />
+    <state x="2892" y="452" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1599867777576">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state x="2892" y="452" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599867777576" />
     <state x="2777" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599855446020">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="2777" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855446020" />
-    <state width="1859" height="320" key="GridCell.Tab.0.bottom" timestamp="1599865362797">
+    <state width="1996" height="477" key="GridCell.Tab.0.bottom" timestamp="1599880284889">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1859" height="320" key="GridCell.Tab.0.bottom/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599865362797" />
-    <state width="1859" height="320" key="GridCell.Tab.0.center" timestamp="1599865362796">
+    <state width="1996" height="477" key="GridCell.Tab.0.bottom/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599880284889" />
+    <state width="1996" height="477" key="GridCell.Tab.0.center" timestamp="1599880284888">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1859" height="320" key="GridCell.Tab.0.center/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599865362796" />
-    <state width="1859" height="320" key="GridCell.Tab.0.left" timestamp="1599865362795">
+    <state width="1996" height="477" key="GridCell.Tab.0.center/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599880284888" />
+    <state width="1996" height="477" key="GridCell.Tab.0.left" timestamp="1599880284888">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1859" height="320" key="GridCell.Tab.0.left/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599865362795" />
-    <state width="1859" height="320" key="GridCell.Tab.0.right" timestamp="1599865362796">
+    <state width="1996" height="477" key="GridCell.Tab.0.left/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599880284888" />
+    <state width="1996" height="477" key="GridCell.Tab.0.right" timestamp="1599880284888">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1859" height="320" key="GridCell.Tab.0.right/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599865362796" />
+    <state width="1996" height="477" key="GridCell.Tab.0.right/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599880284888" />
     <state width="1996" height="738" key="GridCell.Tab.1.bottom" timestamp="1599855620156">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
@@ -229,16 +247,16 @@
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state width="1996" height="738" key="GridCell.Tab.1.right/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599855620155" />
-    <state x="2646" y="207" key="NewModule_or_Project.wizard" timestamp="1599709457116">
+    <state x="2646" y="207" key="NewModule_or_Project.wizard" timestamp="1599866492766">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="598" y="199" key="NewModule_or_Project.wizard/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@0.23.2048.1077" timestamp="1598567584647" />
-    <state x="2646" y="207" key="NewModule_or_Project.wizard/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599709457116" />
-    <state x="2432" y="42" key="SettingsEditor" timestamp="1599709509000">
+    <state x="2646" y="207" key="NewModule_or_Project.wizard/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599866492766" />
+    <state x="2432" y="42" width="1588" height="1041" key="SettingsEditor" timestamp="1599880273335">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="384" y="41" key="SettingsEditor/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@0.23.2048.1077" timestamp="1599006189674" />
-    <state x="2432" y="42" key="SettingsEditor/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599709509000" />
+    <state x="2432" y="42" width="1588" height="1041" key="SettingsEditor/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1599880273335" />
     <state x="2695" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1599855807906">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
