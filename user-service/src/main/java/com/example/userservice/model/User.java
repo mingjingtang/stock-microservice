@@ -5,26 +5,29 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 @Entity
-@Table(name = "users")
+@Table (name = "users")
 public class User {
 
     @Id
-    @Column(name = "id")
+    @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "username")
+    @Column
     @NotBlank(message = "invalid username")
     private String username;
 
-    @Column(name = "password")
+    @Column
     @NotBlank(message = "invalid password")
     private String password;
 
-    @Column(name = "email", unique = true)
+    @Column
     @Email(message = "Email invalid")
     @NotBlank(message = "invalid email")
     private String email;
+
+    @Column
+    private double balance;
 
     public User(){};
 
@@ -58,5 +61,13 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 }
