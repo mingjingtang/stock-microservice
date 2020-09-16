@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="113b04e0-e16d-4c9f-b414-ee609a8e93c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/config_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_5_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/java/com/example/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/java/com/example/config/ConfigApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +183,7 @@
       <workItem from="1599855807252" duration="58000" />
       <workItem from="1599866331283" duration="69000" />
       <workItem from="1599867506237" duration="3197000" />
-      <workItem from="1600220922895" duration="5381000" />
+      <workItem from="1600220922895" duration="6155000" />
     </task>
     <servers />
   </component>
