@@ -2,32 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="113b04e0-e16d-4c9f-b414-ee609a8e93c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-config/gateway.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/src/main/java/com/example/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/java/com/example/config/ConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockTransaction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/StockTransactionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/StockTransactionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/controller/StockTransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/controller/StockTransactionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/repository/StockTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/repository/StockTransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/service/StockTransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/service/StockTransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/service/StockTransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stockTransaction-service/src/main/java/com/example/stocktransactionservice/service/StockTransactionServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,9 +77,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.1536524" />
-    <property name="project.structure.side.proportion" value="0.17795978" />
+    <property name="project.structure.side.proportion" value="0.2725242" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
@@ -207,7 +188,7 @@
       <workItem from="1599855807252" duration="58000" />
       <workItem from="1599866331283" duration="69000" />
       <workItem from="1599867506237" duration="3197000" />
-      <workItem from="1600220922895" duration="11635000" />
+      <workItem from="1600220922895" duration="14973000" />
     </task>
     <servers />
   </component>
@@ -295,11 +276,11 @@
     </state>
     <state x="598" y="199" key="NewModule_or_Project.wizard/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@0.23.2048.1077" timestamp="1598567584647" />
     <state x="2646" y="207" key="NewModule_or_Project.wizard/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1600302333791" />
-    <state x="439" y="23" width="1588" height="1041" key="SettingsEditor" timestamp="1600302361075">
+    <state x="439" y="23" width="1588" height="1041" key="SettingsEditor" timestamp="1600318894677">
       <screen x="0" y="23" width="2048" height="1077" />
     </state>
     <state x="384" y="41" key="SettingsEditor/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@0.23.2048.1077" timestamp="1599006189674" />
-    <state x="439" y="23" width="1588" height="1041" key="SettingsEditor/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1600302361075" />
+    <state x="439" y="23" width="1588" height="1041" key="SettingsEditor/2613.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1600318894677" />
     <state x="2695" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1600220940360">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>

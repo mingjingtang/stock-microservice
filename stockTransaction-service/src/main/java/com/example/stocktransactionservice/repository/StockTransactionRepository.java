@@ -12,7 +12,7 @@ import java.util.Optional;
 public interface StockTransactionRepository extends CrudRepository<StockTransaction,Long> {
 
     @Query("FROM StockTransaction WHERE userId = ?1 ORDER BY companyName ASC")
-    public List<StockTransaction> findBYUserIdOrderByCompanyName(Long suserId);
+    public Optional<StockTransaction> findBYUserIdOrderByCompanyName(Long userId);
 
 //    @Query("FROM StockTransaction WHERE id = ?1")
 //    public Optional<StockTransaction> findById(Long stockId);

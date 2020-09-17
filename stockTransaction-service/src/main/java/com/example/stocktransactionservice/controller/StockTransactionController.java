@@ -5,7 +5,6 @@ import com.example.stocktransactionservice.service.StockTransactionServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -20,7 +19,7 @@ public class StockTransactionController {
     }
 
     @GetMapping("/{userId}/getallstocks")
-    public List<StockTransaction> getAllStocks(@PathVariable Long userId){
+    public Optional<StockTransaction> getAllStocks(@PathVariable Long userId){
         return stockTransactionService.getAllStocks(userId);
     }
 }
