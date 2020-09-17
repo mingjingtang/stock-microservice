@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="transaction-service" />
-        <module name="user-service" />
         <module name="discovery" />
+        <module name="stockTransaction-service" />
+        <module name="user-service" />
         <module name="gateway" />
         <module name="config" />
       </profile>
