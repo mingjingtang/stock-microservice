@@ -7,6 +7,7 @@ import com.example.stocktransactionservice.repository.StockUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -20,7 +21,7 @@ public class StockTransactionServiceImpl implements StockTransactionService {
 
 
     @Override
-    public Optional<StockTransaction> addStock(StockTransaction stockTransaction) {
+    public StockTransaction addStock(StockTransaction stockTransaction) {
         stockTransactionRepository.save(stockTransaction);
 
         StockUser newTransaction = new StockUser();
@@ -28,12 +29,12 @@ public class StockTransactionServiceImpl implements StockTransactionService {
         newTransaction.setStockId(stockTransaction.getId());
         stockUserRepository.save(newTransaction);
 
-        return stockTransactionRepository.findById(stockTransaction.getId());
+        return stockTransactionRepository.findByStockId(stockTransaction.getId());
     }
 
-    
+
     @Override
-    public Optional<StockTransaction> getAllStocks(Long userId) {
+    public List<StockTransaction> getAllStocks(Long userId) {
         return stockTransactionRepository.findBYUserIdOrderByCompanyName(userId);
     }
 }
